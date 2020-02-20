@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+header .container {
+    padding-top: 35px;
+    padding-left: 64px;
+    padding-right: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    background: rgba(167, 161, 147, 0.55);
+    z-index: 15;
+    transition: all .6s;
+}
+.header-fixed:before{
+    display: none;
+}
+.logo {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.nav .nav-item {
+    padding-left: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 29px;
+    color: #000000;
+}
+.nav-item:hover{
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 24px;
+    transition: 0.7s;
+    align-content: center;
+    background: rgba(253, 180, 97, 0.82);
+    border-radius: 4px;
+    color: rgba(62, 34, 3, 0.82);
+}
+
+#sunny {
+    padding-top: 20%;
+    padding-bottom: 368px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 67.4%, #000000 89%), url(../img/first-bg.jpg) no-repeat center/cover;
+    /* background-color: #000000; */
+}
+
+#sunny .container {
+    margin-left: 173px;
+}
+
+.section-title {
+  margin-bottom: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    color: #000000;
+}
+
+ 
+#sunny .section-description {
+  margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.sunny-btn{
+    display: flex;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 12px 20px;
+    width: 156px;
+  border: 2px solid rgba(62, 34, 3, 0.82);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(62, 34, 3, 0.82);
+}
+.btn:first-child{
+    margin-right: 24px;
+}
+.btn:hover{
+    transition: 0.5s;
+    align-content: center;
+    background: rgba(253, 180, 97, 0.82);
+}
+.finding-friend{
+    margin-top:494px; 
+}
+.finding-friend .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-pets{
+    margin-left: -75px;
+}
+.finding-friend-content{
+    margin-left: 75px;
+}
+.title{
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+.description{
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.start-adopting{
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: rgba(253, 180, 97, 0.82);
+}
+.start-adopting:before{
+content: '';
+    bottom: -5px;
+    position: absolute;
+    width: 176px;
+    height: 2px;
+    background: rgba(253, 180, 97, 0.82);
+}
+.testimony{
+    padding-top: 122px;
+    display: flex;
+}
+.testimony img{
+    width: 84px;
+    height: 84px;
+    border-radius:50%;
+}
+.italic-description{
+    padding-left: 24px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.9);
+}
+#night{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 24.31%, rgba(0, 0, 0, 0) 73.48%), linear-gradient(180deg, rgba(0, 0, 0, 0) 84.53%, #000000 100%), url(../img/second-bg.jpg);
+}
+#night .container .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-pets-content{
+    margin-right: 100px;
+}
+.second-testimony{
+margin-top: 40px;
+    display: flex;
+
+}
+.second-testimony img{
+    width: 84px;
+    height: 84px;
+    border-radius:50%;
+}
+.second-testimony{
+    margin-left: 50px; 
+    padding-bottom: 400px;
+}
+#night .container:not(first-child){
+margin-left:50px ;
+}
+#night .container .section-title,.section-description{
+    color:#FFFFFF;
+}
+#night .container .sunny-btn .btn{
+    color: rgba(253, 180, 97, 0.82);
+    border-color: rgba(253, 180, 97, 0.82);
+
+} 
+#night .container .sunny-btn {
+    padding-bottom: 222px;
+}
+.copyrighted{
+    padding-bottom: 60px;
+ font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: rgba(255, 255, 255, 0.6);
+}
